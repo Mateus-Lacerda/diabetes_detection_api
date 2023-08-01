@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from flask import Flask, request, jsonify
-import json
 from pyngrok import ngrok
 
 app = Flask(__name__)
